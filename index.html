@@ -1,0 +1,84 @@
+<!DOCTYPE html><!-- 기본세팅은 ! + tab 단축기로 빠르게 작성 가능 -->
+<html lang="ko">
+    <head>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous">
+        </script>
+        <!-- 합쳐지고 최소화된 최신 CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+        <!-- 부가적인 테마 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+        <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <meta charset="utf-8">
+        <title>나를 소개해요</title><!-- 창 이름 -->
+    </head>
+    <body>
+        <div class="container">
+        <h1>이시영</h1>
+        <h2>이시영을 소개합니다</h2>
+        <br>
+        <form class="form-horizontal" action="전송받을 대상">            
+            <div class="form-group"> 
+                <label for="inputid" class="col-sm-2 control-label">ID</label>              
+                <div class="col-sm-10">
+                    <input type="id" class="form-control" id="inputid" placeholder="ID">
+                </div>                
+              </div>
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Remember me
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Sign in</button>
+              </div>
+            </div>
+        </form>
+        <br>
+        
+        <img src="123.png" height="200"><!-- height, width -->
+        <br>
+        <form action="전송받을 대상">
+            <h2>나의 일기장</h2>
+            제목 : <input type="text" name="diary_title"><br>
+            <select>
+                <option value="goodday">좋은날</option>
+                <option value="badday">나쁜날</option>
+                <option value="sosoday">그저그런날</option>
+            </select><br>
+            내용 : <br>
+            <textarea cols="30" rows="20"></textarea>
+            <br> <input type="submit">
+        </form><br>
+        <h2>나의 일대기</h2>
+        <ol><!-- 단축키 : ol>li*4 -->
+            <li><a href="1.html">유년기</a></li>
+            <li><a href="2.html">성장기</a></li>
+            <li><a href="3.html">방황기</a></li>
+            <li><a href="4.html">지금</a></li>
+        </ol>
+    </div>
+    </body>
+</html>
